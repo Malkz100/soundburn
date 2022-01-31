@@ -14,7 +14,8 @@ class CustomerController extends Controller
 
     public function show(Customer $customer)
     {
-        return $customer;
+        return response()->json($customer, 200);
+        //return $customer;
     }
 
     public function store(Request $request)
