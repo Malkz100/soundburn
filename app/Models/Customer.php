@@ -19,8 +19,8 @@ class Customer extends Model
         'username','title','firstname', 'lastname', 'address1', 'address2', 'towncity', 'county', 'postcode', 'phone', 'email'
     ];
 
-    public function booking()
-    {
-        return $this->hasMany(Booking::class);
-    }
+//    public function booking()
+//    {
+//        return $this->hasMany(Booking::class);
+//    }
 }
